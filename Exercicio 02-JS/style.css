@@ -1,0 +1,13 @@
+body {
+  background-color: bisque;
+  font-family: "Courier New", Courier, monospace;
+}
+.title__principal {
+  font-size: 34px;
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+.text__principal {
+  font-size: 28px;
+  color: rgb(66, 56, 30);
+}
