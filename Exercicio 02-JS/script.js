@@ -6,13 +6,11 @@ let idadeSegundaPessoa = Number(prompt("Digite sua idade:"));
 
 {
   console.log(
-    "Olá, " + nomePrimeiraPessoa + " e " + nomeSegundaPessoa + ", é um Prazer!"
+    `Olá, ${nomePrimeiraPessoa}  e   ${nomeSegundaPessoa} , é um Prazer!`
   );
 }
 
-alert(
-  "Olá, " + nomePrimeiraPessoa + " e " + nomeSegundaPessoa + ", é um Prazer! "
-);
+alert(`Olá,  ${nomePrimeiraPessoa}  e   ${nomeSegundaPessoa}, é um Prazer! `);
 
 let primeiraPessoa = {
   nomePrimeiraPessoa: nomePrimeiraPessoa,
