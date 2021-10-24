@@ -1,0 +1,40 @@
+body {
+  background-color: bisque;
+  font-family: "Courier New", Courier, monospace;
+}
+.title__principal {
+  font-size: 34px;
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+.text__principal {
+  font-size: 28px;
+  color: rgb(66, 56, 30);
+}
+
+.label__nome {
+  color: darkgoldenrod;
+  font-weight: 700;
+}
+
+input {
+  margin-top: 10px;
+  height: 25px;
+  border: none;
+  border-radius: 2px;
+}
+
+#btnCadastro {
+  height: 30px;
+  background-color: rgb(211, 169, 61);
+  color: rgb(66, 56, 30);
+  border-radius: 7px;
+  border: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+#btnCadastro:hover {
+  background-color: rgb(66, 56, 30);
+  color: #fff;
+}
