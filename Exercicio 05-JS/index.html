@@ -13,51 +13,57 @@
     <main>
     <h1 class="title__principal">JavaScript - Exercício 04</h1>
     <p class="text__principal">Consumindo Api Cep</p>
+
     <div class="row">
         <div class="inputbox">
+            <form id="form">
             <input type="text" id="nome" required>
             <label for="nome">Nome</label>
         </div>
+        
         <div class="inputbox">
-            <input type="text" id="email"  required>
+            <input type="email" id="email"  required>
             <label for="email">Email</label>
         </div>
+        
     </div>
     <div class="row">
         <div class="inputbox">
-            <input type="text" id="cep"  required>
+            <input type="text" id="cep" maxlength="9" required>
             <label for="cep">CEP</label>
         </div>
+        
         <div class="inputbox">
-            <input type="text" id="endereço"  required>
+            <input type="text" id="logradouro"  required>
             <label for="endereço">Endereço</label>
         </div>
-        <div class="inputbox">
-            <input type="text" id="numero"  required>
-            <label for="numero">Número</label>
-        </div>
-    <!-- </div> -->
-    <!-- <div class="row"> -->
         <div class="inputbox">
             <input type="text" id="bairro"  required>
             <label for="bairro">Bairro</label>
         </div>
         <div class="inputbox">
-            <input type="text" id="cidade"  required>
+            <input type="text" id="localidade"  required>
             <label for="cidade">Cidade</label>
         </div>
         <div class="inputbox">
-            <input type="text" id="estado"  required>
-            <label for="estado">Estado</label>
+            <input type="text" id="uf"  required>
+            <label for="estado">UF</label>
         </div>
+        <div class="inputbox">
+            <input type="text" id="numero"  required>
+            <label for="numero">Número</label>
+        </div>   
+       
     </div>
+</form>
     <div class="row">
         <button 
-        onclick="pesquisarCep()"
+        onclick="return enviarFormulario()"
                 id="btnCadastro" 
-                type="submit">SALVAR
+                type="submit">Enviar
             </button>
     </div>
+    <P id="error"></P>
    
 </main>
 
